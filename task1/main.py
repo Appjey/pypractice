@@ -1,5 +1,6 @@
-from К25 import tests
 import math
+
+from К25 import tests
 
 
 def f11(x):
@@ -45,19 +46,16 @@ assert f12(tests.get("f12")[11][2][0]) == tests.get("f12")[11][2][1], "error f12
 assert f12(tests.get("f12")[11][3][0]) == tests.get("f12")[11][3][1], "error f12"
 assert f12(tests.get("f12")[11][4][0]) == tests.get("f12")[11][4][1], "error f12"
 
-print(f13(tests.get("f13")[11][1][0][0], tests.get("f13")[11][1][0][1]))
-print(tests.get("f13")[11][1][1])
 assert f13(tests.get("f13")[11][0][0][0], tests.get("f13")[11][0][0][1]) == tests.get("f13")[11][0][1], "error f13"
 assert f13(tests.get("f13")[11][1][0][0], tests.get("f13")[11][1][0][1]) == tests.get("f13")[11][1][1], "error f13"
 assert f13(tests.get("f13")[11][2][0][0], tests.get("f13")[11][2][0][1]) == tests.get("f13")[11][2][1], "error f13"
 assert f13(tests.get("f13")[11][3][0][0], tests.get("f13")[11][3][0][1]) == tests.get("f13")[11][3][1], "error f13"
 assert f13(tests.get("f13")[11][4][0][0], tests.get("f13")[11][4][0][1]) == tests.get("f13")[11][4][1], "error f13"
 
-"""
 assert f14(tests.get("f14")[11][0][0]) == tests.get("f14")[11][0][1], "error f14"
 assert f14(tests.get("f14")[11][1][0]) == tests.get("f14")[11][1][1], "error f14"
 assert f14(tests.get("f14")[11][2][0]) == tests.get("f14")[11][2][1], "error f14"
 assert f14(tests.get("f14")[11][3][0]) == tests.get("f14")[11][3][1], "error f14"
 assert f14(tests.get("f14")[11][4][0]) == tests.get("f14")[11][4][1], "error f14"
-"""
+
 print("pass")
