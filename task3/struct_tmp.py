@@ -11,7 +11,7 @@ class Struct:
 
     def fill(self, value):
         for i in range(1, self.s_size + 1):
-            self.struct['{}{}'.format(self.name, i)] = value[i-1]
+            self.struct['{}{}'.format(self.name, i)] = (value[i-1] if (isinstance(value[i-1], dict) or isinstance(value[i-1], list)) else str(value[i-1]))
 
     def build(self):
         return self.struct
