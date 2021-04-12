@@ -1,3 +1,4 @@
+"""
 class Struct:
     s_size = None
     name = None
@@ -28,3 +29,4 @@ class Struct:
 
     def build(self):
         return self.struct
+"""

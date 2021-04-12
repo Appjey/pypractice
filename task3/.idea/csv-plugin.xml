@@ -10,7 +10,21 @@
             </Attribute>
           </value>
         </entry>
+        <entry key="/part1.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
         <entry key="/struct_tmp.py">
+          <value>
+            <Attribute>
+              <option name="separator" value="," />
+            </Attribute>
+          </value>
+        </entry>
+        <entry key="/tests.py">
           <value>
             <Attribute>
               <option name="separator" value="," />

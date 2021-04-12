@@ -9,5 +9,7 @@ tests_input = dict(f31=dict(a=(b'GFX|eemceM\xfc8\x9e\xf2\xeb\xa9@\x0c\x91\xac\xf
                                b'\xb7?\xea\xec\x87\x1c\x8el\xdc\x92,\xc4\x00\x02\x00\x00\x00ox\xbfZ\x82\\\t'
                                b'\xf7\xbe)\xdc\xa2\x00\x02\x00\x00\x00\x7f*\x04\x0f\x8a\xbb(\xceA?F\x9a\xd8>'
                                b'\x96c\xcc\x1a\xfe\x95\xb9\xa8\x9a\x88W\xbf\xcb\xa2Z\xc3\x92\xe3\xa0?'
-                               b'\xc9Q\x02\x90\xc4\x13\xb8\xbe\x07=\xb2>kI\xcc')), f32=dict(a={}, b={}))
-tests_output = dict(f31=dict(a={}, b={}), f32=dict(a={}, b={}))
+                               b'\xc9Q\x02\x90\xc4\x13\xb8\xbe\x07=\xb2>kI\xcc')), f32=dict(
+    a=['o = C32()', 'o.get()', 'o.amble()', 'o.amble()', 'o.amble()', 'o.get()', 'o.get()', 'o.amble()',
+       'o.get()', 'o.get()', 'o.amble()', 'o.get()', 'o.amble()'], b={}))
+tests_output = dict(f31=dict(a={}, b={}))
